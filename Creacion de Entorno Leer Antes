@@ -8,6 +8,7 @@ Abres CMD, sin administrador, y te vas a mover hasta el nombre de tu carpeta en 
 
 pip install flask
 pip install pandas scikit-learn joblib
+pip install matplotlib
 
 Terminado de haber instalado las dependicias procedemos a crear el modelo y ejecutarlo con los siguientes comandos:
 
