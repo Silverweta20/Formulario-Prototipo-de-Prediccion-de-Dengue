@@ -1,0 +1,17 @@
+Primero se descarga Python desde su pagina oficial https://www.python.org/downloads/
+
+Al momento de instalarlo, das click en la opcion "Add Python to PATH"
+
+Terminada la instalción crearas una carpeta y en ella adjuntras el repositorio compartido.
+
+Abres CMD, sin administrador, y te vas a mover hasta el nombre de tu carpeta en donde colocaste el repositorio completo y ejecutaras los siguientes comandos:
+
+pip install flask
+pip install pandas scikit-learn joblib
+
+Terminado de haber instalado las dependicias procedemos a crear el modelo y ejecutarlo con los siguientes comandos:
+
+python train_model.py
+python app.py
+
+Nos arrojara un dirección IP la cual la abriremos desde el navegador e ingresar los datos para arrojar una predicción con base a los datos en excel.
